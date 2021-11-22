@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    margin: 0px;
 }
 
 .container {
@@ -38,8 +39,29 @@ p {
 }
 
 .text {
+    width: 85%;
     color: black;
     background-color: lightgreen;
     visibility: visible;
     text-align: center;
+}
+
+footer {
+    width: 85%;
+    border: 1px solid black;
+    border-left-style: none;
+    border-right-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 1.2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: deeppink;
 }
