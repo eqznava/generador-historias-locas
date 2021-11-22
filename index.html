@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="styles.css">
     <title>Generador de historias</title>
-  </head>
-  <body>
-    <div>
-      <label for="customname">Ingrese un nombre:</label>
-      <input id="customname" type="text" placeholder="">
-    </div>
-    <div>
-      <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
-      <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
-    </div>
-    <div>
-      <button class="randomize">Generar historia</button>
-    </div>
-    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
-    <p class="story"></p>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Generador de historias locas</h1>
+        <div>
+            <label for="customname">Ingrese un nombre:</label>
+            <input id="customname" type="text" placeholder="">
+        </div>
+        <div>
+            <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+            <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+        </div>
+        <div>
+            <button class="randomize">Generar historia</button>
+        </div>
+        <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+        <p class="story"></p>
+        <p class="text">Esta es una práctica de los cursos de Mozilla, los input radio son para cambiar el cálculo que se hace de libaras a piedras.</p>
+    </section>
     <script src="main.js" charset="utf-8"></script>
-  </body>
+</body>
+
 </html>
